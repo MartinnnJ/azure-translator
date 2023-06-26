@@ -1,0 +1,33 @@
+{
+  "limit": { "limit": 300 },
+  "languages": [
+    { "langCode": "R", "langName": "Runes" },
+    { "langCode": "ar", "langName": "Arabic" },
+    { "langCode": "hi", "langName": "Hindi" },
+    { "langCode": "en", "langName": "English" },
+    { "langCode": "de", "langName": "German" },
+    { "langCode": "nl", "langName": "Dutch" },
+    { "langCode": "sv", "langName": "Swedish" },
+    { "langCode": "et", "langName": "Estonian" },
+    { "langCode": "fi", "langName": "Finnish" },
+    { "langCode": "es", "langName": "Spannish" },
+    { "langCode": "it", "langName": "Italian" },
+    { "langCode": "fr", "langName": "French" },
+    { "langCode": "ru", "langName": "Russian" },
+    { "langCode": "tr", "langName": "Turkish" },
+    { "langCode": "pl", "langName": "Polish" },
+    { "langCode": "bg", "langName": "Bulgarian" },
+    { "langCode": "sk", "langName": "Slovak" },
+    { "langCode": "sl", "langName": "Slovenian" },
+    { "langCode": "hr", "langName": "Croatian" },
+    { "langCode": "cs", "langName": "Czech" },
+    { "langCode": "da", "langName": "Danish" },
+    { "langCode": "is", "langName": "Icelandic" },
+    { "langCode": "hu", "langName": "Hungarian" },
+    { "langCode": "el", "langName": "Greek" },
+    { "langCode": "ja", "langName": "Japanese" },
+    { "langCode": "nb", "langName": "Norwegian" },
+    { "langCode": "ro", "langName": "Romanian" },
+    { "langCode": "uk", "langName": "Ukrainian" }
+  ]
+}

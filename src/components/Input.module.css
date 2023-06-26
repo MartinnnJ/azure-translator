@@ -1,0 +1,53 @@
+.input-container {
+  position: relative;
+  margin: 2em auto;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 175px;
+  font-size: 1.75rem;
+  padding: 1em;
+  padding-right: 2em;
+  border-radius: 0.5em;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 2px 6px 4px lightgray;
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.counter {
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+}
+
+.danger {
+  color: red;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 900px) {
+  textarea {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  textarea {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  textarea {
+    min-height: 150px;
+  }
+}

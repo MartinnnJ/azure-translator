@@ -1,0 +1,44 @@
+.output-container {
+  position: relative;
+  min-height: 175px;
+  overflow: auto;
+  font-size: 1.75rem;
+  padding: 1em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  background-color: #f2f2f2;
+  border: 1px solid grey;
+}
+
+.placeholder {
+  color: grey;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+.btn-copy {
+  position: absolute;
+  right: .5em;
+  bottom: .5em;
+  font-size: .85rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .output-container {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .output-container {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .output-container {
+    min-height: 150px;
+  }
+}
