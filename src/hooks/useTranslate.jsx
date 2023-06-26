@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import translateRunes from '../../helpers/translateRunes';
-import translate from '../../helpers/translate';
+import translateRunes from '../helpers/translateRunes';
+import translate from '../helpers/translate';
 
 const DEFAULT_OUTPUT = {
   placeHolder: true,

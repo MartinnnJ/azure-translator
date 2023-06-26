@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
-import useFetchInitialData from "./components/hooks/useFetchInitialData";
-import useTranslate from "./components/hooks/useTranslate";
+import useFetchInitialData from "./hooks/useFetchInitialData";
+import useTranslate from "./hooks/useTranslate";
 import Header from "./components/Header";
 import Input from "./components/Input";
 import Select from "./components/Select";
